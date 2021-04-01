@@ -56,6 +56,13 @@ function App() {
 
         }}
          />
+         <button 
+         className="btn btn-info btn-sm mx-3"
+         onClick={input !== "" ? addTodo : "" }
+         >ADD TODO</button>
+
+
+         {/* TODO CARDS */}
          <div className="row my-5 justify-content-center ">
            {
              todos.length > 0 ?
